@@ -1,0 +1,17 @@
+#banner{
+	height: 100vh;
+	background-image: url("../images/banner.jpeg");
+	background-size: cover;
+	background-position: center;
+/*	filter: contrast(50%);*/
+	background-image: contrast(50%)
+	color: beige;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-shadow: -3px 3px 3px #795548;
+
+}
+

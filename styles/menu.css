@@ -1,0 +1,33 @@
+.menu{
+    display: flex;
+    padding:0;
+    text-align: center;
+
+    justify-content: space-around;
+}
+.menu li {
+    list-style-type: none ;
+  
+}
+.menu a {
+    display:block;
+    min-width: 120px;
+
+    margin: 0.5rem;
+    padding: 0.4rem 0;
+    background-color: #d5cdbb;
+    color: #211903;
+    border-color: #211903;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 4px;
+
+    transition: all 1s;
+}
+
+
+.menu a:hover { 
+    background-color: #211903 ;
+    color:  #d5cdbb;
+    border-color:  #d5cdbb;
+}
