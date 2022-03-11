@@ -1,9 +1,10 @@
 #banner{
 	height: 100vh;
 	background-image: url("../images/banner.jpeg");
+	background-attachment: fixed ; 
 	background-size: cover;
 	background-position: center;
-/*	filter: contrast(50%);*/
+	filter: contrast(80%);
 	background-image: contrast(50%)
 	color: beige;
 	

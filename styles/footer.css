@@ -1,7 +1,15 @@
 .footer{
-	background-color: darkgrey;
+	background-color: #d5cdbb;
 	color: white;
-	text-align: center;
-	padding: 24px 0;
+	padding: 70px 24px;
 	margin: 40px;
+}
+
+.sec-gauche{
+	padding-right: 10px;
+}
+
+.sec-droite{
+	float: right;
+	padding-left: 10px;
 }

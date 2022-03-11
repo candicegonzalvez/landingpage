@@ -14,13 +14,13 @@
                 <a href="#">À propos</a>
               </li>
               <li>
-                <a href="#">Nos chambres</a>
+                <a href="#chambres">Nos chambres</a>
               </li>
               <li>
                 <a href="#">Les activités</a>
               </li>
               <li>
-                <a href="#">Contact</a>
+                <a href="#contact">Contact</a>
               </li>
         </ul>
 <!-- banner -->
@@ -29,9 +29,9 @@
 			<h2>VOTRE SÉJOUR EN PROVENCE </h2>
 		</div>
 <!-- page content -->
-		<div>
-			<h2>Découvrer nos chambres</h2>
-			<div class="container">
+		<div id="chambres">
+			<h3>Découvrer nos chambres </h3>
+			<div class="container" >
 <!-- cards -->
 				<div class="cards">
 					<div class="card" id="card1">
@@ -55,9 +55,59 @@
 				</div>	
 <!--  end of cards-->
 		</div>
+<!-- contact -->
+		<div class="contactez-nous" id="contact">
+			<h3>Contactez-nous</h3>
+			<p>Un problème, une question, envie de nous envoyer un message d’amour ? N’hésitez pas à utiliser ce formulaire pour prendre contact avec nous !</p>
+				<form action="/page-traitement-donnees" method="post">
+					<div>
+						<label for="nom">Votre nom</label>
+						<input type="text" id="nom" name="nom" placeholder="Martin" required>
+					</div>
+
+					<div>
+						<label for="email">Votre e-mail</label>
+						<input type="email" id="email" name="email" placeholder="monadresse@mail.com" required>
+					</div>
+				
+					<div>
+						<label for="sujet">Quel est le sujet de votre message ?</label>
+						<select name="sujet" id="sujet" required>
+						<option value="" disabled selected hidden>Choisissez le sujet de votre message</option>
+						<option value="probleme-compte">Demande d'annulation</option>
+						<option value="question-produit">Question à propos de votre réservation</option>
+						<option value="suivi-commande">Demande spéciale</option>
+						<option value="autre">Autre...</option>
+						</select>
+					</div>
+					<div>
+						<label for="message">Votre message</label>
+						<textarea id="message" name="message" placeholder="Bonjour, je vous contacte car...." required></textarea>
+					</div>
+					<div>
+					<button type="submit" id="soumettre">Envoyer mon message</button>
+					</div>
+				</form>
+		</div>
+<!-- maps -->
+		<div class="maps">
+			<h3>Où sommes-nous ?</h3>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2886.2752761608963!2d7.148629715191271!3d43.663244459799735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12cdd396226f2c49%3A0xe16e5f1b4ff9f826!2sKiffeur!5e0!3m2!1sfr!2sfr!4v1646910709730!5m2!1sfr!2sfr" width="950" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+		</div>
 <!-- footer -->
 		<div class="footer">
-			<p>A très vite !</p>
+			<div class="sec-gauche">
+				<p>
+					Maison d'hôtes des Dames Roses <br>
+					5 Pl. du Général de Gaulle <br>
+					06800 Cagnes-sur-Mer <br>
+					06 68 83 92 18 <br>
+				</p>
+			</div>
+			<div class="sec-droite">
+				<p>A très vite !</p>	
+			</div>
+			
 		</div>
 	</body>
 	</html>

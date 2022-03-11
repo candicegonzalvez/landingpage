@@ -1,6 +1,5 @@
 .menu{
     display: flex;
-    padding:0;
     text-align: center;
 
     justify-content: space-around;
@@ -10,10 +9,12 @@
   
 }
 .menu a {
-    display:block;
-    min-width: 120px;
+    font-size: 20px;
 
-    margin: 0.5rem;
+    display:block;
+    min-width: 140px;
+
+    margin: 0.7rem;
     padding: 0.4rem 0;
     background-color: #d5cdbb;
     color: #211903;
@@ -21,7 +22,6 @@
     text-decoration: none;
     border: 1px solid #fff;
     border-radius: 4px;
-
     transition: all 1s;
 }
 

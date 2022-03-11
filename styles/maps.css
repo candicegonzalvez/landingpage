@@ -1,0 +1,21 @@
+.maps{
+text-align: center;
+	}
+
+#iframe (min-width: 576px) {
+	.maps {
+		width: 450px;
+	}
+}
+
+#iframe (min-width: 768px) {
+	.maps {
+		width: 550px;
+	}
+}
+
+#iframe (min-width: 992px) {
+	.maps	{
+		width: 750px;
+	}
+}

@@ -12,6 +12,7 @@
 #card1 {
 	justify-content: space-around;
 	filter: contrast(50%);
+	text-align: center;
 }
 
 #card1:hover {
@@ -21,6 +22,7 @@
 #card2 {
 	justify-content: space-around;
 	filter: contrast(50%);
+	text-align: center;
 }
 
 #card2:hover {
@@ -31,6 +33,7 @@
 #card3 {
 	justify-content: space-around;
 	filter: contrast(50%);
+	text-align: center;
 }
 
 #card3:hover {
@@ -38,7 +41,10 @@
 }
 
 .card img{
-	width: 80%;
+	width: 90%;
+	justify-content: center;
+	align-items: center;
+	border-radius: 4px;
 }
 
 @media (min-width: 576px) {
